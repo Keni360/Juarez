@@ -11,10 +11,11 @@ body {
 
 
 
-/*DropDown*/
+/*DropDown mobile*/
 
 .dropdown{
-  margin:auto;
+  background-color:rgba(0,0,0,.4);
+  padding:5px auto;
   color:#fff;
   text-align:center;
   font-size:1.8em;
@@ -106,11 +107,18 @@ ul{list-style: none; padding:0;}
 ul li{margin:0;}
 
 
+@media (max-width: 400px){
+    #cabecalho{
+  padding-top:100px;
+
+}
+}
 
 @media (min-width: 400px){
   .dropdown{display:none;}
   .menu{display:block;}
   #slideshow{display:block;}
+
 }
 
 /*
@@ -119,7 +127,11 @@ ul li{margin:0;}
 
 @media (min-width: 768px){
   body{
-    background-color:#ccc;
+    background-color:#ddd;
+  }
+  
+  #cabecalho{
+    padding-top:0px auto;
   }
 }
 
@@ -128,6 +140,9 @@ ul li{margin:0;}
   **CSS para tablets e not/netbooks**
 */
 @media (min-width: 992px){
+  #cabecalho{
+    padding-top:0px auto;
+  }
   body{
     background-color:#ddd;}
 }
@@ -138,5 +153,10 @@ ul li{margin:0;}
 */
 @media (min-width: 1200px){
   body{
-    background-color:#ccc;}
+    background-color:#ddd;
+  }
+  
+  #cabecalho{
+    padding-top:0px;
+  }
 }
