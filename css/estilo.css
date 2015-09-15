@@ -4,7 +4,7 @@
 */
 
 body {
-      background-color:#ddd;
+      background-color:#ccc;
       color:#313131;
       width:100%;
 }
@@ -58,6 +58,8 @@ body {
   border-bottom:solid #006680 50px;
   display:none;
 }
+
+#nos img{width:10%;}
 
 .slideshow{
   border-bottom:solid #fff 5px;
@@ -129,7 +131,7 @@ ul li{margin:0;}
 */
 @media (min-width: 992px){
   body{
-    background-color:#ddd;}
+    background-color:#ccc;}
 }
 
 
