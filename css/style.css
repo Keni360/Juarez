@@ -9,10 +9,10 @@
 .thumbnail-default{ padding:2%; text-align:center; margin:10px 0px;position:relative;}
 .thumbnail-default h4{text-align:center;font-size:1.5em; font-weight:;min-height:45px;}
 .thumbnail-default img{margin-bottom:15px;}
-
+.under-l{border-bottom:solid 2px;padding:10px 25px;}
 p,ul, ol{font-size:1.2em;}
 ul li ul{font-size:1em;}
-
+article{text-indent:2%;}
 
 
 body {
@@ -27,6 +27,7 @@ body {
   padding-top:25px;
 }
 
+#title-image1{background-image:url('http://keniwd.16mb.com/jua/img/cftv.jpg');}
 
 /*DropDown mobile*/
 
@@ -76,6 +77,10 @@ body {
 .left{text-align:left;}
 .left-block{}
 .title-c{text-align:center;}
+.title-l{text-align:left; margin-bottom:40px;}
+.title-image{height:30vh;background-repeat:no-repeat; background-size:100%;filter:brightness(70%);border-radius:10px;}
+
+
 .title-under-l{ padding:5px 10px;}
 
 .txt-img p{ float:left; width:70%;}
