@@ -78,14 +78,14 @@ body {
 .left-block{}
 .title-c{text-align:center;}
 .title-l{text-align:left; margin-bottom:40px;}
-.title-image{height:30vh;background-repeat:no-repeat; background-size:100%;filter:brightness(70%);border-radius:10px;}
+.title-image{height:30vh;margin-bottom:50px;background-repeat:no-repeat; background-size:100%;filter:brightness(100%);border-radius:10px;}
 
 
 .title-under-l{ padding:5px 10px;}
 
 
-.txt-img p{ float:left; width:70%;}
-.txt-img img{ float:right; position:relative; right:10%;}  
+.txt-img p{clear:left;}
+.txt-img figure{border:solid red 1px; float:right; position:relative;}  
 .txt-img ul{ float:left;}  
 
 
