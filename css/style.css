@@ -28,7 +28,10 @@ body {
 }
 
 #title-image1{background-image:url('http://keniwd.16mb.com/jua/img/cftv.jpg');}
-#title-image2{background-image:url('../img/pedreiro n.png');}
+#title-image2{background-image:url('../img/eletricista n.png');}
+#title-image3{background-image:url('../img/cabeamento_estruturado.png');}
+#title-image4{background-image:url('../img/pedreiro n.png');}
+
 
 /*DropDown mobile*/
 
@@ -85,9 +88,6 @@ body {
 .title-under-l{ padding:5px 10px;}
 
 
-.txt-img p{clear:left;}
-.txt-img figure{border:solid red 1px; float:right; position:relative;}  
-.txt-img ul{ float:left;}  
 
 
 
@@ -99,23 +99,29 @@ body {
   position:relative;
   display:none;
   width:100%;
-  height:65vh;
+  height:400px;
   overflow:hidden;
 }
 
-#slideshow img {
+#slideshow img, #slideshow figure {
   width:100%;
-  height:60vh;
+  height:100%;
   position:absolute;
   top:0px;
 }
 
-#slideshow figure{
+.slide_controle {
   position:absolute;
-  top:0px;
-  width:100%;
-  height:60vh;
+  color:#fff;
+  background-color:rgba(0,0,0,.6);
+  border-radius:5px;
+  top:40%;  
+  font-size:2em;
+  padding:15px 10px;
 }
+
+.controle_left{ left:50px; }
+.controle_right{ right:50px; }
 
 .slide_legenda figcaption{ 
   text-align:center;
@@ -171,7 +177,7 @@ body {
 
 @media (max-width: 400px){
     #cabecalho{padding-top:100px;}
-    .txt-img p { width:100%;}
+    
     .txt-img img {display:none;}
   .under-l{border-bottom:none;}
 }
@@ -180,7 +186,7 @@ body {
   .dropdown{display:none;}
   .menu{display:block;}  
   #slideshow{display:block;}
-  .txt-img img {width:40%; right:0;}
+  
   
 }
 
@@ -196,7 +202,7 @@ body {
   #cabecalho{padding-top:0px auto;}
   #logo {position:relative;}
   #logo img{position:absolute; top:10px;}
-  .txt-img img{right:10%;}  
+  
 }
 
 
