@@ -17,6 +17,8 @@ p,ul, ol{font-size:1.2em;}
 ul li ul{font-size:1em;}
 article{text-indent:2%;}
 
+.servico figure img{ width:100%; margin-top:50px;}
+.servico #btn{text-align:center;}
 .list-ico {list-style:none;margin-top:50px;}
 .list-ico li ul li{list-style:none; margin-bottom:6px;}
 .list-ico ul li img{width:30px;}
@@ -86,7 +88,7 @@ body {
 .center-block{margin:auto;float:center;}
 .left{text-align:left;}
 .left-block{}
-.title-c{text-align:center; margin-bottom:15px;}
+.title-c{text-align:center; margin-bottom:50px;}
 .title-l{text-align:left; margin-bottom:40px;}
 .title-image{height:30vh;margin-bottom:50px;background-repeat:no-repeat; background-size:100%;filter:brightness(100%);border-radius:10px;}
 
@@ -124,6 +126,7 @@ body {
   top:40%;  
   font-size:2em;
   padding:15px 10px;
+  cursor: pointer;
 }
 .slide_controle:hover{
   background-color:rgba(0,0,0,.9);
@@ -186,10 +189,12 @@ body {
 
 
 @media (max-width: 400px){
-    #cabecalho{padding-top:100px;}
-    
+	h1{font-size:2.2em; text-align:center;}
+	.list-ico li{font-size:.9em;}
+    #cabecalho{padding-top:100px;}    
     .txt-img img {display:none;}
-  .under-l{border-bottom:none;}
+	.under-l{border-bottom:none;}
+	.servico figure{ display:none;}
 }
 
 @media (min-width: 400px){

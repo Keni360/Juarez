@@ -5,8 +5,16 @@
 */
 $(document).ready(function(){
       $('.dropdown .btn_n').click(function(){
-        $('.dropdown ul').toggle('slow');
+        $('.dropdown ul').toggle('slow');		
       });
+	  
+	  		/*
+		**Script scroll suave
+		*/
+		
+	    $(".scroll").click(function(event){        
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1200);});
 	
 	/*
 	**Script do Slideshow
